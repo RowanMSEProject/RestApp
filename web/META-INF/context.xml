@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/RestApp">
+
+<Resource auth="Container" 
+            driverClassName="org.apache.derby.jdbc.ClientDriver" 
+            maxActive="100" maxIdle="30" maxWait="10000" 
+            name="SMLSTwo" password="1990130" 
+            type="javax.sql.DataSource" 
+            url="jdbc:derby://localhost:1527/SMLSTwo" 
+            username="junxinhe"/>
+</Context>
